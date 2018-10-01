@@ -14,7 +14,7 @@ public class LongestPalindromicSubstring {
 			palindrome(s, i, i+1);
 		}
 		
-		return s.substring(lo, max);
+		return s.substring(lo, lo+max);
 	}
 	
 	public void palindrome(String s, int i, int j){
